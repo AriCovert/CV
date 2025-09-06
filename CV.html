@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mon CV</title>
+    <link href="CV.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allura&display=swap">
+    <style>
+      .alinéa {
+        margin-left: 20px;
+      }
+      .signature {
+        font-family: 'Allura', cursive;
+        font-size: 30px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>MACQUET Aristote</h1>
+    <h2>Recherche travail mi-temps</h2>  
+
+    <p>
+      <a href="photoBruceSpringsteen.jpeg">
+        <img src="photoBruceSpringsteen.jpeg" alt="Photo de moi" title="Cliquez pour agrandir" width="135" height="210"/>
+      </a>
+    </p>
+
+    <h2>Mon profil :</h2>
+    <ul>
+      <li>MACQUET Aristote</li>
+      <li>19 ans (10/06/2006)</li>
+      <li>Talant 21240</li>
+      <li>Pour me joindre : <a href="mailto:aristote.macquet@gmail.com">aristote.macquet@gmail.com</a></li>
+    </ul>
+    
+    <h2>Mes points forts :</h2>
+    <ul>
+      <li>Calme - patient - réfléchi</li>
+      <li>Trilingue : Français, Espagnol et Anglais</li>
+      <li>Doué en Python, HTML et CSS principalement</li>
+      <li>Amateur de culture générale et de lecture</li>
+      <li>Curieux et ouvert d'esprit</li>
+    </ul>
+
+    <h2>Mon parcours professionnel :</h2>
+    <ul>
+      <li><strong>2025-maintenant</strong>. Etudiant en B.U.T. Informatique à <a href="https://www.ube.fr/" target="_blank">l'université de Bourgogne Europe</a>.</li>
+      <li><strong>2024-2025</strong>. Obtention du Baccalauréat Général au <a href="https://www.sb-lycee.fr" target="_blank">lycée St-Bénigne</a>.</li>
+      <li><strong>2022-2024</strong>. J'ai gardé des jeunes et/ou donné des cours d'espagnol.</li>
+      <li><strong>Juin 2022</strong>. Stage estival au <a href="https://www.cassissium.fr" target="_blank">Cassissium</a> (musée-boutique).</li>
+      <li><strong>2017-2022</strong>. Cursus scolaire en Espagne.</li>
+    </ul>
+
+    <h2>Des projets montrant mon éventail de capacités :</h2>
+    <ul>
+      <li>Mon propre site, répertoriant des fiches de révision faites par moi et mon équipe de devs (juste un copain)</li>
+      <li>Le jeu du Morpion en HTML, CSS et JS.</li>
+      <li>Le jeu du Nombre Mystère en Python.</li>
+      <li>Le jeu du 2048 en Python et en PyCharm.</li>
+      <li>Un codeur et un décodeur ASCII en Python.</li>
+    </ul>
+    <p>
+      Pour voir plus de détails techniques (captures d’écran, explications, codes complets etc), 
+      consultez ma page <a href="projets.html">Projets</a>.
+    </p>
+
+    <h2>Je souhaite postuler pour :</h2>
+    <p class="alinéa">Un emploi à mi-temps, qui pourrait être compatible avec mon emploi du temps d'étudiant en informatique à l'université.</p>
+
+    <button id="openPopup">Vous m'embauchez ?</button>
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup">
+      <div class="popup-header">
+        <h2>Vous m’embauchez ?</h2>
+        <button class="close" id="closePopup">&times;</button>
+      </div>
+      <p>Souhaitez-vous m’embaucher ?</p>
+      <div>
+        <button id="yesButton">Oui</button>
+        <button id="noButton">Non</button>
+      </div>
+    </div>
+    <script src="CV.js"></script>
+ 
+    <br>
+    <p>Merci d'avoir pris le temps de lire mon CV.</p>
+    <p>Bien à vous.</p>
+    <p class="signature">Aristote</p>
+
+  </body>
+</html>
